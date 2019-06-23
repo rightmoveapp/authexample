@@ -1,0 +1,13 @@
+#!/bin/bash
+
+docker-compose down
+
+if [ "$1" == "build" ]; then
+  docker-compose build
+fi
+
+docker-compose up -d 
+
+docker-compose exec django_api apt-get install vim -y
+
+docker-compose exec django_api /bin/bash

@@ -1,0 +1,5 @@
+django
+djangorestframework==3.9.4
+django-rest-auth
+psycopg2-binary
+django-allauth
