@@ -1,5 +1,5 @@
 django
-djangorestframework==3.9.4
+djangorestframework==3.11.2
 django-rest-auth
 psycopg2-binary
 django-allauth
